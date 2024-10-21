@@ -77,12 +77,12 @@ function App() {
           <h1 className="title">Kidus Basazinew</h1>
           <p className="section__text__p2">Frontend Developer</p>
           <div className="btn-container">
-            <button
+            {/* <button
               className="btn btn-color-2"
               onClick={() => window.open("./assets/resume-example.pdf")}
             >
               Download CV
-            </button>
+            </button> */}
             <button
               className="btn btn-color-1"
               onClick={() => (window.location.href = "./#contact")}
@@ -92,7 +92,7 @@ function App() {
           </div>
           <div id="socials-container">
             <img
-              src="../public/linkedin.png"
+              src="../linkedin.png"
               alt="My LinkedIn profile"
               className="icon"
               onClick={() =>
@@ -101,7 +101,7 @@ function App() {
               }
             />
             <img
-              src="../public/github.png"
+              src="../github.png"
               alt="My Github profile"
               className="icon"
               onClick={() =>
@@ -117,7 +117,7 @@ function App() {
         <div className="section-container">
           <div className="section__pic-container">
             <img
-              src="../public/profile-pic.png"
+              src="../profile-pic.png"
               alt="Profile picture"
               className="me"
             />
@@ -126,7 +126,7 @@ function App() {
             <div className="about-containers">
               <div className="details-container">
                 <img
-                  src="../public/experience.png"
+                  src="../experience.png"
                   alt="Experience icon"
                   className="icon"
                 />
@@ -138,7 +138,7 @@ function App() {
               </div>
               <div className="details-container">
                 <img
-                  src="../public/education.png"
+                  src="../education.png"
                   alt="Education icon"
                   className="icon"
                 />
@@ -166,7 +166,7 @@ function App() {
           </div>
         </div>
         <img
-          src="../public/arrow.png"
+          src="../arrow.png"
           alt="Arrow icon"
           className="icon arrow"
           onClick={() => (window.location.href = "#experience")}
@@ -182,7 +182,7 @@ function App() {
               <div className="article-container">
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -193,7 +193,7 @@ function App() {
                 </article>
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -204,7 +204,7 @@ function App() {
                 </article>
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -215,7 +215,7 @@ function App() {
                 </article>
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -226,7 +226,7 @@ function App() {
                 </article>
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -237,7 +237,7 @@ function App() {
                 </article>
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -253,7 +253,7 @@ function App() {
               <div className="article-container">
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -264,7 +264,7 @@ function App() {
                 </article>
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -275,7 +275,7 @@ function App() {
                 </article>
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -286,7 +286,7 @@ function App() {
                 </article>
                 <article>
                   <img
-                    src="../public/checkmark.png"
+                    src="../checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -300,7 +300,7 @@ function App() {
           </div>
         </div>
         <img
-          src="../public/arrow.png"
+          src="../arrow.png"
           alt="Arrow icon"
           className="icon arrow"
           onClick={() => (window.location.href = "#projects")}
@@ -314,7 +314,7 @@ function App() {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="../public/project-1.png"
+                  src="../project-1.png"
                   alt="Project 1"
                   className="project-img"
                 />
@@ -340,7 +340,7 @@ function App() {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="../public/project-2.png"
+                  src="../project-2.png"
                   alt="Project 2"
                   className="project-img"
                 />
@@ -366,7 +366,7 @@ function App() {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="../public/project-4.png"
+                  src="../project-4.png"
                   alt="Project 3"
                   className="project-img"
                 />
@@ -392,7 +392,7 @@ function App() {
           </div>
         </div>
         <img
-          src="../public/arrow.png"
+          src="../arrow.png"
           alt="Arrow icon"
           className="icon arrow"
           onClick={() => (window.location.href = "#contact")}
@@ -404,7 +404,7 @@ function App() {
         <div className="contact-info-upper-container">
           <div className="contact-info-container">
             <img
-              src="../public/email.png"
+              src="../email.png"
               alt="Email icon"
               className="icon contact-icon email-icon"
             />
@@ -414,7 +414,7 @@ function App() {
           </div>
           <div className="contact-info-container">
             <img
-              src="../public/linkedin.png"
+              src="../linkedin.png"
               alt="LinkedIn icon"
               className="icon contact-icon"
             />
