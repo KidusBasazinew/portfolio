@@ -67,7 +67,7 @@ function App() {
       <section id="profile">
         <div className="section__pic-container">
           <img
-            src="../public/profile-pic.png"
+            src="../profile-pic.png"
             alt="Kidus Baszibew profile picture"
             className="about-pic"
           />
