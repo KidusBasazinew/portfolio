@@ -368,7 +368,7 @@ function App() {
                 <img
                   src="../project-4.png"
                   alt="Project 4"
-                  className="project-img"
+                  // className="project-img"
                 />
               </div>
               <h2 className="experience-sub-title project-title">
