@@ -367,7 +367,7 @@ function App() {
               <div className="article-container">
                 <img
                   src="../project-4.png"
-                  alt="Project 3"
+                  alt="Project 4"
                   className="project-img"
                 />
               </div>
