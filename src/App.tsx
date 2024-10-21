@@ -366,7 +366,7 @@ function App() {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="../project-1.png"
+                  src="../project-4.png"
                   alt="Project 4"
                   className="project-img"
                 />
