@@ -77,12 +77,12 @@ function App() {
           <h1 className="title">Kidus Basazinew</h1>
           <p className="section__text__p2">Frontend Developer</p>
           <div className="btn-container">
-            {/* <button
+            <button
               className="btn btn-color-2"
               onClick={() => window.open("./assets/resume-example.pdf")}
             >
               Download CV
-            </button> */}
+            </button>
             <button
               className="btn btn-color-1"
               onClick={() => (window.location.href = "./#contact")}
