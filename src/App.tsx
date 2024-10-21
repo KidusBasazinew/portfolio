@@ -366,9 +366,9 @@ function App() {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="../project-4.png"
+                  src="../project-1.png"
                   alt="Project 4"
-                  // className="project-img"
+                  className="project-img"
                 />
               </div>
               <h2 className="experience-sub-title project-title">
