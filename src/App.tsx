@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 
-import linkdin from "../public/linkedin.png";
-
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
